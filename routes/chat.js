@@ -24,7 +24,7 @@ import {
 import { isAuthenticated } from "../middlewares/auth.js";
 import { attachmentsMulter } from "../middlewares/multer.js";
 
-const app = express.Router();
+const   app = express.Router();
 
 // After here user must be logged in to access the routes
 
